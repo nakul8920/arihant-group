@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arihant Group - Premium Real Estate Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar creative-navbar glass-navbar sticky-navbar">
+        <div class="nav-left">
+            <span class="nav-logo">
+                <img src="logo/Untitled design.png" alt="Arihant Group Logo" class="logo-img"/>
+            </span>
+        </div>
+        <ul class="nav-center">
+            <li><a href="/" class="nav-link home-link"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#layouts" class="nav-link">Floor Plans</a></li>
+            <li><a href="#master-plan" class="nav-link">Master Plan</a></li>
+            <li><a href="#location" class="nav-link">Location</a></li>
+            <li><a href="#amenities" class="nav-link">Amenities</a></li>
+            <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="https://wa.me/919899978478?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20visit%20for%20Arihant%20Group.%20Please%20provide%20me%20with%20more%20details." target="_blank" class="cta-btn">Book a Visit</a>
+            <a href="#contact" class="contact-btn" onclick="openContactForm()">Contact</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <a href="https://wa.me/919899978478?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20visit%20for%20Arihant%20Group.%20Please%20provide%20me%20with%20more%20details." target="_blank" class="fab fab-whatsapp" title="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat with us</span>
+        </a>
+        <a href="tel:9899978478" class="fab fab-call" title="Call Now">
+            <i class="fas fa-phone-alt"></i>
+            <span>Call Now</span>
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="particles-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Arihant Group</h1>
+            <p class="hero-subtitle">Crafting Landmarks. Creating Lifestyles.</p>
+            <p class="hero-description">Step into a world where luxury, comfort, and nature blend seamlessly. Discover your dream home with Arihant Group—where every detail is designed for your happiness and success.</p>
+            <button class="cta-button" onclick="openContactForm()">
+                <span>Explore Now</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section id="overview" class="overview">
+        <!-- <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div> -->
+        <div class="container">
+            <div class="section-header">
+                <h2>Arihant Group Overview</h2>
+                <p>Discover the perfect blend of modern architecture, green living, and vibrant community at Arihant Group.</p>
+            </div>
+            <div class="overview-content">
+                <div class="overview-text">
+                    <h3>Premium Living, Inspired by Nature</h3>
+                    <p>Arihant Group is more than just a residential complex—it's a vision for sustainable, luxurious, and community-driven living. Our project is designed to offer residents a harmonious balance of modern comforts and natural beauty, with a focus on eco-friendly practices, smart home technology, and vibrant social spaces.</p>
+                    <ul class="overview-highlights">
+                        <li><i class="fas fa-leaf"></i> <span>Green Living: Lush landscapes, vertical gardens, and energy-efficient design.</span></li>
+                        <li><i class="fas fa-bolt"></i> <span>Smart Homes: Automated lighting, security, and climate control for your convenience.</span></li>
+                        <li><i class="fas fa-award"></i> <span>Award-winning Design: Recognized for excellence in architecture and sustainability.</span></li>
+                        <li><i class="fas fa-users"></i> <span>Community First: Clubhouse, co-working spaces, and vibrant social events.</span></li>
+                    </ul>
+                    <div class="overview-stats">
+                        <div class="stat">
+                            <h4>1000+</h4>
+                            <p>Premium Units</p>
+                        </div>
+                        <div class="stat">
+                            <h4>25+</h4>
+                            <p>Amenities</p>
+                        </div>
+                        <!-- <div class="stat">
+                            <h4>5</h4>
+                            <p>Towers</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="overview-slider">
+                    <div class="slider-wrapper">
+                        <img src="overview images/overview-1.jpg" alt="Arihant Group Modern Living" class="slider-image active">
+                        <img src="overview images/overview-2.jpeg" alt="Arihant Group Green Spaces" class="slider-image">
+                        <img src="overview images/overview-3.jpg" alt="Arihant Group Community Life" class="slider-image">
+                        <div class="slider-controls">
+                            <span class="slider-dot active"></span>
+                            <span class="slider-dot"></span>
+                            <span class="slider-dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flat Layouts Section -->
+    <section id="layouts" class="layouts">
+        <div class="floor-animated-bg"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="wave-background">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Floor Plans</h2>
+                <p>Choose from our carefully designed layouts</p>
+            </div>
+            <div class="layouts-grid creative-2x2">
+                <div class="layout-card">
+                    <img src="floor plans/arden-floor6-s.jpg" alt="3 BHK Layout" class="blurred-image floorplan-img" onclick="openContactForm()">
+                    <div class="layout-info">
+                        <h3>1700 sq.ft</h3>
+                        <p>3 BHK</p>
+                        <div class="info-line">For more information</div>
+                        <button class="contact-btn-front" onclick="openContactForm()">Contact Now</button>
+                    </div>
+                </div>
+                <div class="layout-card">
+                    <img src="floor plans/arden-floor7-b.jpg" alt="3 BHK + Servent Layout" class="blurred-image floorplan-img" onclick="openContactForm()">
+                    <div class="layout-info">
+                        <h3>1900 sq.ft</h3>
+                        <p>3 BHK + Servent</p>
+                        <div class="info-line">For more information</div>
+                        <button class="contact-btn-front" onclick="openContactForm()">Contact Now</button>
+                    </div>
+                </div>
+                <div class="layout-card">
+                    <img src="floor plans/arden-floor8-b.jpg" alt="Iconic Tower Layout" class="blurred-image floorplan-img" onclick="openContactForm()">
+                    <div class="layout-info">
+                        <h3>3350 sq.ft</h3>
+                        <p>Iconic Tower</p>
+                        <div class="info-line">For more information</div>
+                        <button class="contact-btn-front" onclick="openContactForm()">Contact Now</button>
+                    </div>
+                </div>
+                <div class="layout-card">
+                    <img src="floor plans/arden-floor9-b.jpg" alt="4 BHK Layout" class="blurred-image floorplan-img" onclick="openContactForm()">
+                    <div class="layout-info">
+                        <h3>2800 sq.ft</h3>
+                        <p>4 BHK</p>
+                        <div class="info-line">For more information</div>
+                        <button class="contact-btn-front" onclick="openContactForm()">Contact Now</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Master Layout Plan -->
+    <section id="master-plan" class="master-plan">
+        <div class="gradient-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Master Layout Plan</h2>
+                <p>Comprehensive development layout with all amenities</p>
+            </div>
+            <div class="master-plan-content">
+                <div class="master-plan-image">
+                    <div class="mlp-image-wrapper">
+                        <img src="master layout plan/mlp.jpg" alt="Master Layout Plan" class="mlp-blur-image" />
+                        <button class="mlp-enquire-btn" onclick="openContactForm()">Enquire Now</button>
+                    </div>
+                </div>
+                <div class="master-plan-features">
+                    <h3>Development Highlights</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Central Clubhouse</li>
+                        <li><i class="fas fa-check"></i> Swimming Pool Complex</li>
+                        <li><i class="fas fa-check"></i> Landscaped Gardens</li>
+                        <li><i class="fas fa-check"></i> Sports Facilities</li>
+                        <li><i class="fas fa-check"></i> Children's Play Area</li>
+                        <li><i class="fas fa-check"></i> Parking Facilities</li>
+                        <li><i class="fas fa-check"></i> Security & Maintenance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Map -->
+    <section id="location" class="location">
+        <div class="ripple-bg">
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Prime Location</h2>
+                <p>Strategically located with excellent connectivity</p>
+            </div>
+            <div class="location-content">
+                <div class="location-map">
+                    <div class="location-image-wrapper">
+                        <img src="prime location/location-map.jpg" alt="Location Map" class="location-blur-image" />
+                        <button class="location-enquire-btn" onclick="openContactForm()">Enquire Now</button>
+                    </div>
+                </div>
+                <div class="location-advantages">
+                    <h3>Location Advantages</h3>
+                    <div class="advantages-grid">
+                        <div class="advantage-item">
+                            <i class="fas fa-subway"></i>
+                            <h4>Metro Connectivity</h4>
+                            <p>2 km from Metro Station</p>
+                        </div>
+                        <div class="advantage-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Educational Hubs</h4>
+                            <p>Top schools & colleges nearby</p>
+                        </div>
+                        <div class="advantage-item">
+                            <i class="fas fa-hospital"></i>
+                            <h4>Healthcare</h4>
+                            <p>Multi-specialty hospitals</p>
+                        </div>
+                        <div class="advantage-item">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h4>Shopping Centers</h4>
+                            <p>Malls & retail outlets</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <div class="blob-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>World-Class Amenities</h2>
+                <p>Experience luxury living with premium facilities</p>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Swimming Pool</h3>
+                    <p>Olympic-size swimming pool with kids' pool</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Fitness Center</h3>
+                    <p>State-of-the-art gym with modern equipment</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-tree"></i>
+                    <h3>Landscaped Gardens</h3>
+                    <p>Beautiful green spaces and walking trails</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Indoor Games</h3>
+                    <p>Table tennis, billiards, and board games</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-child"></i>
+                    <h3>Kids Play Area</h3>
+                    <p>Safe and fun playground for children</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Parking</h3>
+                    <p>Covered parking with 24/7 security</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security</h3>
+                    <p>24/7 security with CCTV surveillance</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Concierge</h3>
+                    <p>Dedicated concierge services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="geometric-bg">
+            <div class="geometric-shape"></div>
+            <div class="geometric-shape"></div>
+            <div class="geometric-shape"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Pricing Plans</h2>
+                <p>Flexible payment options to suit your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" onclick="openContactForm()">
+                    <div class="pricing-header">
+                        <h3>1 BHK</h3>
+                        <div class="price">₹1.36 Cr.*</div>
+                        <p>1700 sq.ft</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-paint-roller"></i> Premium Finishes</li>
+                        <li><i class="fas fa-utensils"></i> Modular Kitchen</li>
+                        <li><i class="fas fa-gem"></i> Branded Fixtures</li>
+                        <li><i class="fas fa-door-open"></i>Balcony</li>
+                    </ul>
+                    <button class="pricing-btn">Enquire Now</button>
+                </div>
+                <div class="pricing-card" onclick="openContactForm()">
+                    <div class="pricing-header">
+                        <h3>2 BHK</h3>
+                        <div class="price">₹1.52 Cr.*</div>
+                        <p>1900 sq.ft</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-paint-roller"></i> Premium Finishes</li>
+                        <li><i class="fas fa-utensils"></i> Modular Kitchen</li>
+                        <li><i class="fas fa-gem"></i> Branded Fixtures</li>
+                        <li><i class="fas fa-door-open"></i>Balconies</li>
+                        <li><i class="fas fa-bed"></i> Master Bedroom</li>
+                    </ul>
+                    <button class="pricing-btn">Enquire Now</button>
+                </div>
+                <div class="pricing-card" onclick="openContactForm()">
+                    <div class="pricing-header">
+                        <h3>3 BHK</h3>
+                        <div class="price">₹2.24 Cr.*</div>
+                        <p>2800 sq.ft</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-paint-roller"></i> Premium Finishes</li>
+                        <li><i class="fas fa-utensils"></i> Modular Kitchen</li>
+                        <li><i class="fas fa-gem"></i> Branded Fixtures</li>
+                        <li><i class="fas fa-door-open"></i>Balconies</li>
+                        <li><i class="fas fa-user"></i> Servant Room</li>
+                    </ul>
+                    <button class="pricing-btn">Enquire Now</button>
+                </div>
+                <div class="pricing-card" onclick="openContactForm()">
+                    <div class="pricing-header">
+                        <h3>Iconic Tower</h3>
+                        <div class="price">₹2.84 Cr.*</div>
+                        <p>3550 sq.ft</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-couch"></i> Ultra Luxury Space</li>
+                        <li><i class="fas fa-umbrella-beach"></i> Private Terrace</li>
+                        <li><i class="fas fa-paint-brush"></i> Designer Interiors</li>
+                        <li><i class="fas fa-star"></i> Iconic Tower Exclusive</li>
+                        <li><i class="fas fa-bed"></i> 4 Spacious Bedrooms</li>
+                        
+                    </ul>
+                    <button class="pricing-btn">Enquire Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Brochure Section -->
+    <section class="brochure-section">
+        <div class="container">
+            <div class="brochure-content">
+                <h2>Get Detailed Information</h2>
+                <p>Download our comprehensive brochure with floor plans, pricing, and amenities</p>
+                <button class="brochure-btn" onclick="openContactForm()">
+                    <i class="fas fa-download"></i>
+                    Download Brochure
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content horizontal-footer">
+                <div class="footer-section">
+                    <h3>Arihant Group</h3>
+                    <img src="logo/Untitled design.png" alt="Arihant Group Logo" class="footer-logo-img" />
+                    <p>Where Luxury Meets Nature</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#overview">Overview</a></li>
+                        <li><a href="#layouts">Floor Plans</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98999 78478</p>
+                        <p><i class="fas fa-envelope"></i> info@arihantgroup.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Sec-22D Yamuna Expressway</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Arihant Group. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-split-content">
+            <div class="modal-left-branding">
+                <img src="logo/Untitled design.png" alt="Arihant Group Logo" class="modal-logo-img" style="max-width:120px;width:80%;margin-bottom:18px;display:block;" />
+                <div class="branding-title"><span style="color:#b31217;font-weight:700;font-size:2.2rem;">Arihant</span> <span style="font-size:2.2rem;">Group</span></div>
+                <div class="branding-subtitle">ULTRA LUXURY APARTMENTS</div>
+                
+            </div>
+            <div class="modal-right-form">
+                <span class="close" onclick="closeContactForm()">&times;</span>
+                <h2 class="form-heading">Fill Your Details</h2>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Full Name*" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone No.*" required pattern="[0-9]{10}" maxlength="10" inputmode="numeric" title="Please enter a valid 10-digit phone number">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message (Optional)" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Details</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
