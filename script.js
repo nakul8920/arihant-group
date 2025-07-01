@@ -486,3 +486,11 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
   });
+
+function validateNameInput(input) {
+    input.value = input.value.replace(/[^A-Za-z\s]/g, '').slice(0, 60);
+}
+
+function validatePhoneInput(input) {
+    input.value = input.value.replace(/[^0-9]/g, '').slice(0, 10);
+}
