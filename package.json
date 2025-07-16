@@ -1,0 +1,20 @@
+{
+  "name": "new-web2",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r [![Netlify Status](https://api.netlify.com/api/v1/badges/20f7d949-b02c-4062-ab7f-a57a0165289e/deploy-status)](https://app.netlify.com/projects/extraordinary-raindrop-34da75/deploys)\r =======\r # Arihant Group Web Project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakul8920/arihant-group.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakul8920/arihant-group/issues"
+  },
+  "homepage": "https://github.com/nakul8920/arihant-group#readme"
+}
